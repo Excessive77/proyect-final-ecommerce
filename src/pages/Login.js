@@ -31,6 +31,10 @@ const Login = () => {
         <div className="form-container">
 
         <h1>Inicio de sesión</h1>
+        <p>Credenciales para entrar:</p>
+        <p>email: admin@admin.com</p>
+        <p>password: root</p>
+
         <form onSubmit={handleSubmit(onSubmit)}>
             <div className="form-control">
                 <label>Email</label>
