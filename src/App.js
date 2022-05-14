@@ -17,7 +17,7 @@ function App() {
           <Route path='signup'/>
               {/* Private routes */}
             <Route element={<ProtectedPages />}>
-              <Route path='/' element={<h1>Hola</h1>}/>          
+              <Route path='/'/>          
               <Route path='shop' element={<Shop />}/>          
               <Route path='shop/:id' element={<Product />}/>          
               <Route path='cart' element={<Cart />}/>          
